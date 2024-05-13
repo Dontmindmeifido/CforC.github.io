@@ -77,35 +77,35 @@ body {
 }
 #pages > #pi1 {
     transform: translate3d(0, 0, -1px);
-    background-image: linear-gradient(rgb(89, 73, 53),rgb(90, 78, 52));
+    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
 }
 #pages > #pi2 {
     transform: translate3d(0, 0, -2px);
-    background-image: linear-gradient(rgb(93, 83, 70),rgb(100, 92, 72));
+    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
 }
 #pages > #pi3 {
     transform: translate3d(0, 0, -3px);
-    background-image: linear-gradient(rgb(129, 109, 83),rgb(122, 108, 77));
+    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
 }
 #pages > #pi4 {
     transform: translate3d(0, 0, -4px);
-    background-image: linear-gradient(rgb(112, 99, 82),rgb(122, 111, 88));
+    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
 }
 #pages > #pi5 {
     transform: translate3d(0, 0, -5px);
-    background-image: linear-gradient(rgb(139, 119, 93),rgb(111, 99, 74));
+    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
 }
 #pages > #pi6 {
     transform: translate3d(0, 0, -6px);
-    background-image: linear-gradient(rgb(114, 105, 93),rgb(98, 91, 75));
+    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
 }
 #pages > #pi7 {
     transform: translate3d(0, 0, -7px);
-    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
+    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
 }
 #pages > #pi8 {
     transform: translate3d(0, 0, -8px);
-    background-image: linear-gradient(rgb(69, 61, 51),rgb(90, 83, 67));
+    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
 }
 #pages > #pi9 {
     transform: translate3d(0, 0, -9px);
