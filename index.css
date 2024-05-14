@@ -66,6 +66,9 @@ body {
 #view {
     transform-style: preserve-3d;
     perspective: 10000px;
+
+    transition-property: transform;
+    transition-duration: 500ms;
 }
 
 #pages > div {
