@@ -44,6 +44,7 @@ a:hover {
 .team {
   border-bottom: 2px dashed black;
   background-color: lightgray;
+  width: 100vw;
 }
 
 .hd {
