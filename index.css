@@ -1,149 +1,91 @@
-
 body {
-    background-color: rgb(30, 29, 29);
-    overflow: hidden;
-    user-select: none;
-    color: rgb(0, 0, 0);
-    font-family: monospace;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#book > div {
-    position: absolute;
-    height: 600px;
-    width: 370px;
-}
-
-#book > .p1 {
-    background-color: rgb(158, 105, 105);
-    overflow: hidden;
-    background-image: linear-gradient(rgb(117, 71, 18),rgb(107, 83, 18));
-
-    animation: slidepag 2s ease-in-out 2s 1 forwards;
-}
-.p2 {
-    background-color: brown;
-    transform: translateZ(-100px);
-    background-image: linear-gradient(rgb(91, 59, 21),rgb(73, 53, 6));
-}
-#book > .p4 {
-    background-color: rgb(103, 52, 17);
-    transform: translateZ(-50px) translateX(-50px) rotateY(90deg);
-    width: 100px;
-}
-
-
-
-
-#book {
-    position: relative;
-    transform: translate3d(calc(16vw), -900px, -100000px) rotateX(0deg) rotateY(90deg);
-    transform-style: preserve-3d;
-    perspective: 10000px;
-
-    animation: slide 2s ease-in-out 0s 1 forwards;
-}
-
-@keyframes slide {
-    0% {
-        transfrom: translate3d(calc(30vw + 160px), -200px, -100000px) rotateX(0deg) rotateY(90deg);
-    }
-    100% {
-        transform: translate3d(calc(30vw + 160px), calc(20vh), -1000px) rotateX(10deg) rotateY(10deg);
-    }
-}
-@keyframes slidepag {
-    0% {
-        transform-origin: 0%;
-        transform: rotateY(0deg);
-    }
-    100% {
-        transform-origin: 0%;
-        transform: rotateY(-160deg);
-    }
-}
-
-
-#view {
-    transform-style: preserve-3d;
-    perspective: 10000px;
-}
-
-#pages > div {
-    position: absolute;
-    height: 600px;
-    width: 370px;
-    background-image: linear-gradient(rgb(89, 76, 60),rgb(86, 77, 57));
+header, footer {
     text-align: center;
-}
-#pages > #pi1 {
-    transform: translate3d(0, 0, -1px);
-    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
-}
-#pages > #pi2 {
-    transform: translate3d(0, 0, -2px);
-    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
-}
-#pages > #pi3 {
-    transform: translate3d(0, 0, -3px);
-    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
-}
-#pages > #pi4 {
-    transform: translate3d(0, 0, -4px);
-    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
-}
-#pages > #pi5 {
-    transform: translate3d(0, 0, -5px);
-    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
-}
-#pages > #pi6 {
-    transform: translate3d(0, 0, -6px);
-    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
-}
-#pages > #pi7 {
-    transform: translate3d(0, 0, -7px);
-    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
-}
-#pages > #pi8 {
-    transform: translate3d(0, 0, -8px);
-    background-image: linear-gradient(rgb(138, 118, 92),rgb(121, 106, 75));
-}
-#pages > #pi9 {
-    transform: translate3d(0, 0, -9px);
-    background-image: linear-gradient(rgb(147, 125, 97),rgb(132, 116, 82));
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
-#pages {
-    transform-style: preserve-3d;
-    perspective: 10000px;
+#teams {
+    padding: 20px;
 }
 
-H1 {
-    text-align: center;
+.team {
+    margin-bottom: 30px;
 }
 
-button {
-    background-color: rgb(45, 44, 52);
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    opacity: 0.3;
+.team h3 {
+    margin-bottom: 10px;
 }
 
-button:hover {
-    opacity: 0.6;
-}
-
-.b1 {
-    position: absolute;
-    left: 10px;
-    top: 39vh;
-}
-.b2 {
-    position: absolute;
-    right: 10px;
-    top: 39vh;
-}
-
-ul {
+.team ul {
     list-style: none;
+    padding: 0;
+}
+
+.team ul li {
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.team {
+  border-bottom: 2px dashed black;
+  background-color: lightgray;
+}
+
+.hd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.hd > h1 {
+  color: white;
+}
+
+.hd > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+#participation {
+  display: flex;
+  align-items: center;
+}
+
+.subsection {
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.subsection > img {
+  width: 33vw;
+}
+
+.subsection > h3 {
+  border-bottom: 2px dashed black;
+  border-top: 2px dashed black;
 }
