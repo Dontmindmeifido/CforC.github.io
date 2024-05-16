@@ -53,14 +53,6 @@ a:hover {
   justify-content: center;
 }
 
-.hd > img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: 0;
-}
-
 #participation {
   display: flex;
   justify-content: center;
