@@ -67,7 +67,7 @@ a:hover {
 
 #participation {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .subsection {
